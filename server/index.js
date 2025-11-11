@@ -17,9 +17,10 @@ const HMAC_KEY = process.env.HMAC_KEY || "SECRET_KEY_456";
 
 app.use(helmet());
 app.use(cors({
-  origin: 'https://richikar.github.io',
+  origin: 'https://swaminathan-a.github.io',
   credentials: true
 }));
+
 
 app.use(express.json());
 
